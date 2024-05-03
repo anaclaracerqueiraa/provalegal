@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
-}
+/*Navbar*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgb(61, 136, 235);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#senai{
+  width: 20%;
+  height: 52%;
+  position: relative;
+  left: 39%;
+  top: 7%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-bonita{
+  row-gap: 10px;
+}
+
+/*Coisas geral*/
+
+ul{
+  list-style: none;
+  position: relative;
+  left: 28.5%;
+}
+
+li{
+  display: inline-block;
+  margin-right: 55px;
+  font-weight: bold ;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*Home*/
+
+.texto{
+  position: relative;
+  left: 32.5%;
+  padding: 1%;
+}
+
+#conhecer{
+  position: relative;
+  left: 7.5%;
+}
+
+.imagens-container{
+  background-color: rgb(61, 136, 235);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.fotos{
+  position: absolute;
+}
+
+#monica,
+#leandro,
+#clarotim,
+#tigrinho,
+#saojoao,
+#tresn{
+  position: relative;
+  left: 16.5%;
+  max-width: 15%;
+  width: 200px;
+  max-height: 50%;
+  height: 350px;
+  padding-left: 0.5%;
+}
+
+/*Footer*/
+
+.footer-container{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+/*  height: 100px;
+  background-color: blueviolet; */
+}
+
+.el-footer{
+  background-color: rgb(61, 136, 235);
+  display: flex;
+  position: absolute;
+}
+
+#coisinhaoutra{
+  position: relative;
+  left: 35.5%;
+  color: aliceblue;
+  padding-top: 0.5%;
+}
+
+#coisinha{
+  color: aliceblue;
+  position: relative;
+  left: 15%;
+  padding-top: 1.5%;
+}
+
+#sesi{
+  padding-top: 1%;
+  padding-bottom: 10px;
+  width: 6%;
+  height: 10%;
+  position: relative;
+  left: 30%;
+}
+
+.textoses{
+  display: flex;
+}
+
+h2{
+  width: 175px;
+  padding-left: 2%;
+  position: relative;
+  left: 16%;
+  color: rgb(17, 17, 163);
+  padding-bottom: 82px;
+}
+
+/*Contato*/
+
+.formulario-container{
+  background-color: rgb(228, 228, 228);
+  width: 50%;
+  display: flex;
+  position: relative;
+  left: 25%;
+}
+
+.formulario{
+  justify-content: center;
+  width: 1000px;
+  height: 751px;
+  font-weight: bold;
+}
+
+fieldset{
+  height: 320px;
+}
+
+/*Quem ser*/
+
+.quemnose{
+  padding-bottom: 13.4%;
+}
+
+hr{
+  height: 100px;
+  background-color: blue;
 }
