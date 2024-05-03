@@ -1,0 +1,1 @@
+Inicialização do react através do npm, criação e organização dos arquivos do espaço de trabalho, código html e css dos componentes, renderização do App.js como o site.
